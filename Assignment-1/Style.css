@@ -1,0 +1,43 @@
+table {
+  	width: 600px;
+}
+
+table, th, td {
+  	border: 2px solid black;
+}
+
+tbody th {
+  	font-weight:normal;
+  	font-style: italic;
+}
+
+tbody tr:nth-of-type(odd) {
+ 	background-color: LimeGreen;
+}
+
+tbody tr:nth-of-type(even) {
+  	background-color: LightBlue;
+}
+
+div.outer-content {
+  	width: 75%;
+	margin-left: 0px;
+  	margin-top: 20px;
+	padding: .5em;
+  	background-color: hotpink;
+}
+
+div.inner-content {
+	width: 75%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: LightBlue;
+}
+
+.inRed {
+  	color: red;
+}
+
+.inBlue {
+  	color: blue;
+}
